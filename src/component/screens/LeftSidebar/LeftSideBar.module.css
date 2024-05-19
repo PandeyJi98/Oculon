@@ -1,0 +1,536 @@
+.parentDiv{
+    width: 20%;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    grid-template-rows: auto 1fr auto; 
+    border-right: 1px solid #ebebee;
+    height: 40vw;  
+}
+.parentDivHidden{
+    width: 3.5%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ebebee;
+    /* min-height: 35vw; */
+    height: 40vw;  
+}
+.searchBtnDiv{
+    display: flex;
+    width: 100%;
+    padding: 15px 14px 10px;
+    gap: 4px;
+    align-items: center;
+}
+.searchBtnHiddenDiv{
+    display: flex;
+    width: 3.5%;
+    padding: 10px 8px 10px;
+    gap: 10px;
+    height: 9.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.flexClass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5px; */
+    border: 1px solid #ebebee;
+    box-shadow: 0 1px 4px rgba(24, 24, 27, .03), 0 1px 2px rgba(24, 24, 27, .03);
+    background: #fff;
+    border-radius: 10px;
+    height: 2.3vw;
+}
+.hiddenFlexClass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid #ebebee;
+    box-shadow: 0 1px 4px rgba(24, 24, 27, .03), 0 1px 2px rgba(24, 24, 27, .03);
+    background: #fff;
+    border-radius: 10px;
+    height: 2.3vw;
+    width: 2.3vw;
+}
+.inputBoxCss{
+    border: none;
+    height: 90%;
+    width: 80%;
+    font-size: 14px;
+    background: transparent;
+}
+.renameInputBoxCss{
+    border: none;
+    height: 90%;
+    width: 80%;
+    font-size: 14px;
+    background: transparent;
+}
+.searchIcon{
+    padding: 10px;
+    height: 2.3vw;
+    width: 2.3vw;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonCss{
+  border: 1px solid #ebebee;
+  box-shadow: 0 1px 4px rgba(24, 24, 27, .03), 0 1px 2px rgba(24, 24, 27, .03);
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  height: 2.3vw;
+  width: 2.3vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputBoxCss:focus {
+    outline: none; 
+    border: none; 
+  }
+.renameInputBoxCss:focus {
+    outline: 1px solid rgb(55, 98, 226); 
+    border-radius: 10px;
+    border: none; 
+  }
+  
+  .inputBoxCss::placeholder {
+    font-size: 12px; 
+    color: gray; 
+  } 
+  .linkModelSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    padding: 0 14px;
+    gap: 5px;
+    height: 30px;
+    transition: background-color .1s ease-in-out, box-shadow .15s ease-in-out;
+    flex-shrink: 0;
+    color: #797986;
+  }
+  .linkedBtn{
+    border: none;
+    background: #fff;
+    color: var(--Neutral-700, #495057);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 5px;
+  }
+  .allSectionParent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-bottom: 5px;
+  }
+  .addSectionDropdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid #ebebee;
+    box-shadow: 0 1px 4px rgba(24, 24, 27, .03), 0 1px 2px rgba(24, 24, 27, .03);
+    background: #fff;
+    border-radius: 10px;
+    height: 2.3rem;
+    margin: 0 10px;
+    padding: 0 10px;
+
+  }
+  .sectionContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0 10px;
+    color: #303036;
+    font-family: Inter Variable, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: .8125rem;
+    font-weight: 432;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: background-color .15s ease;
+    background-color: hsla(240, 5%, 70%, .1);
+    margin: 0 0 8px 10px;
+    height: 2.3vw;
+  }
+  .addSectionDiv{
+    padding: 0 10px;
+    border-bottom: 2px solid #ebebee;
+    max-height: 10vw;
+    overflow: auto;
+  }
+  .addCategoryDiv{
+    max-height: 10vw;
+    overflow: auto;
+    padding: 0 10px;
+  }
+  .addBtn{
+    border: none ;
+  }
+  .linkedBtn:hover{
+    transition: background-color .15s ease;
+    background-color: hsla(240, 5%, 70%, .1);
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 5px;
+    color: var(--Neutral-700, #495057);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  }
+
+  .plusIconDropdown{
+    background-color: transparent; 
+  padding: 10px;
+  border: none; 
+  cursor: pointer; 
+  display: flex; 
+  align-items: center;
+}
+  .plusIconHoverDropdown{
+    background-color: transparent;
+    padding: 10px;
+    border: 1px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(24, 24, 27, .06), 0 1px 3px rgba(24, 24, 27, .04);
+}
+  /* Override the background color of the dropdown toggle when clicked */
+.customToggle:focus,
+.customToggle:active,
+.customToggle:hover {
+  background-color: transparent !important;
+}
+/* .sectionContainer:hover .customToggle{
+    display: flex;
+} */
+.customToggle{
+    background-color: transparent; 
+  /* padding: 10px; */
+  border: none; 
+  cursor: pointer; 
+  display: flex; 
+  align-items: center;
+}
+.customToggle::after,
+.plusIconDropdown::after,
+.plusIconHoverDropdown::after {
+  display: none; 
+}
+.plusIcon{
+    margin-right: 9px;
+}
+.bottomElement{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.bottomElementHide{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+    align-items: center;
+}
+.bottomIcon{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.profile{
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 14px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #0d4cfd;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  overflow: hidden;
+}
+.bottomIconStyle{
+  color: #4372d4;
+  border: 1px solid rgba(67, 114, 212, .3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 0 7px;
+  gap: 5px;
+  font-weight: 500;
+  font-size: .8125rem;
+  height: 30px;
+  transition: background-color .1s ease-in-out, box-shadow .15s ease-in-out;
+  font-family: Inter Variable, -apple-system, BlinkMacSystemFont, sans-serif;
+  flex-shrink: 0;
+  width: 2.3vw;
+}
+.sidebarCopyIcon{
+  width: 2.3vw;
+  height: 2.3vw;
+  padding: 5px;
+  color: #797986;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebarCopyIcon:hover,
+.dataBaseIcon:hover{
+  width: 2.3vw;
+  height: 2.3vw;
+  padding: 5px;
+  color: #797986;
+  background-color: hsla(240, 5%, 70%, .1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dataBaseIcon{
+  width: 2.3vw;
+  height: 2.3vw;
+  padding: 5px;
+  color: #797986;
+  margin-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebarCopyIconDiv{
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ cursor: pointer;
+    color: #303036;
+    justify-content: center;
+    align-items: center;
+    border-bottom:  1px solid rgba(67, 114, 212, .3);
+    padding: 5px;
+}
+.sidebarCopyIconParent{
+  display: flex;
+ flex-direction: column;
+ gap: 5px;
+ cursor: pointer;
+    color: #303036;
+    height: 22vw;
+    border-top:  1px solid rgba(67, 114, 212, .3);
+    
+}
+
+.plusInputAddDropDown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding:8px 10px;
+}
+.plusIconAddDropDown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+
+.plusIconDropdownItems {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+width: 20vw;
+}
+
+.addSectionInput {
+  border: none;
+  font-size: 14px;
+  justify-content: center;
+  display: flex;
+  font-family: sans-serif;
+  outline: none;
+  background: transparent; /* Ensures input background is transparent */
+}
+
+.saveSectionBtn {
+  border: none;
+  color: #4372d4;
+  background-color: #fff;
+}
+
+.saveSectionDisabledBtn {
+  border: none;
+  color: gray;
+  background-color: #fff;
+}
+
+/* .addSectionHover {
+  border-radius: 8px;
+  padding: 0 10px;
+  color: #303036;
+  height: 2.5vw;
+} */
+
+.plusIconAddDropDown:hover,
+.plusInputAddDropDown:hover {
+  background-color: hsla(240, 5%, 70%, .1);
+  border-radius: 8px;
+  color: #303036;
+}
+
+.plusIconAddDropDown:hover input,
+.plusIconAddDropDown:hover button {
+  background-color: transparent; 
+}
+.sectionSearch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eeeef1;
+}
+.underLine{
+  border-bottom: 1px solid #eeeef1;
+  padding: 5px 10px;
+}
+.allSectionData{
+  padding: 0 10px;
+    width: 20vw;
+}
+.sectionText{
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-family: inherit;
+  min-width: .8em;
+}
+.plusIconDropdown:hover{
+  transition: background-color .15s ease;
+  background-color: hsla(240, 5%, 70%, .1);
+  cursor: pointer;
+  border-radius: 8px;
+}
+.plusIconCss{
+  transition: background-color .15s ease;
+  background-color: hsla(240, 5%, 70%, .1);
+  cursor: pointer;
+  border-radius: 8px;
+}
+.mouseHover{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.hoverDropdown{
+  width: 14vw;
+  height: 10vw;
+
+}
+
+.mouseSectionHover {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.dropdownWrapper {
+  position: absolute;
+  top: 6%;
+  left: 100%;
+  z-index: 1000;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: auto;
+  border-radius: 6px;
+  padding: 10px;
+  max-height: 15vw;
+}
+.dropdownHiddenWrapper {
+  position: absolute;
+  top: 6%;
+  left: 85%;
+  z-index: 1000;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 1vw;
+  border-radius: 6px;
+  padding: 10px;
+  max-height: 15vw;
+}
+
+.hoverDropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 4px;
+  margin: 10px;
+}
+.bodyWrapper{
+  display: flex;
+    flex-direction: row;
+    /* padding: 11px 10px 25px 20px; */
+}
+.bodyChangedWrapper{
+  display: flex;
+    flex-direction: column;
+    /* padding: 11px 10px 25px 20px; */
+}
+.dropdownPlus{
+  display: flex;
+  align-items: end;
+}
+.dropdownPlus2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learnMore{
+  font-weight: 500;
+    color: #4372d4;
+    text-decoration: underline;
+}
+.text_style {
+  color: var(--Neutral-700, #495057);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 171.429% */
+}
+
+.customDropdown{
+ position: fixed !important;
+ top: 0 !important;
+ left: -75px !important;
+}

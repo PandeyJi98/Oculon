@@ -1,0 +1,226 @@
+.mainContainer {
+  height: 3.125rem;
+  display: grid;
+  grid-template-areas: left center right;
+  grid-template-columns: minmax(auto, 1fr) auto minmax(auto, 1fr);
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+  gap: 10px;
+  /* overflow: hidden; */
+  padding: 8px;
+  background-color: #fff;
+  border-bottom: 1px solid #ebebee;
+  font-size: 14px;
+}
+.container_view1 {
+  min-width: 231px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* overflow: hidden; */
+  padding: 2px;
+}
+.container_view2 {
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: #fbfbfc;
+  border: 1px solid #ebebee;
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 2px;
+  gap: 4px;
+}
+.container_view3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22px;
+  font-size: 15px;
+  padding: 0 8px;
+  color: #797986;
+}
+.header_logo {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.editable_modelName {
+  padding: 0px;
+  max-width: 10rem;
+  min-width: 5.5rem;
+  outline: none;
+  border: 1px solid #fff;
+  overflow-x: hidden;
+  white-space: nowrap; /* Use white-space instead of text-wrap */
+  border-radius: 0.25rem;
+  padding: 0 0.125rem;
+}
+.header_modal {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 6px;
+}
+.model_link_dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: absolute;
+  left: 0;
+  top: 38px;
+  z-index: 1;
+  transform-origin: center top;
+  opacity: 1;
+  transform: none;
+  max-height: 535.667px;
+  width: 300px;
+  border: 1px solid #e3e3e8;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  overflow: auto;
+  padding: 15px;
+  font-size: 0.75rem;
+}
+.model_name_link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.model_link_icon {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  align-items: center;
+  background-color: hsla(240, 5%, 70%, 0.1);
+  color: #797986;
+  height: 26px;
+  border-radius: 0.56rem;
+  width: 36px;
+}
+.view2_table_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ebebee;
+  box-shadow: 0 1px 4px rgba(24, 24, 27, 0.03), 0 1px 2px rgba(24, 24, 27, 0.03);
+  background: #fff;
+  border-radius: 8px;
+  padding: 6px;
+  cursor: pointer;
+  color: #797986;
+}
+.view2_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(24, 24, 27, 0.03), 0 1px 2px rgba(24, 24, 27, 0.03);
+  border-radius: 8px;
+  padding: 6px;
+  cursor: pointer;
+  color: #797986;
+  border: 1px solid #fbfbfc;
+  background-color: #fbfbfc;
+}
+.view2_icon:hover {
+  background-color: hsla(240, 5%, 50%, 0.1);
+}
+.divider_view3 {
+  height: 1rem;
+  display: inline-block;
+  width: 0;
+  border-right: 1px solid #ebebee;
+}
+.view3_icons {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border-radius: 8px;
+  /* background-color: hsla(240, 5%, 50%, 0.1); */
+}
+.view3_icon1 {
+  composes: view3_icons;
+}
+.view3_icon1:hover {
+  background-color: hsla(240, 5%, 50%, 0.1);
+}
+.view3_icon2 {
+  composes: view3_icons;
+}
+.view3_icon2:hover {
+  background-color: hsla(240, 5%, 50%, 0.1);
+}
+.view3_icon3 {
+  composes: view3_icons;
+}
+.view3_icon3:hover {
+  background-color: hsla(240, 5%, 50%, 0.1);
+}
+.view3_icon4 {
+  composes: view3_icons;
+}
+.view3_icon4:hover {
+  background-color: hsla(240, 5%, 50%, 0.1);
+}
+.drop_container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 4px;
+}
+.linked_model {
+  text-transform: uppercase;
+  color: #afafb6;
+  font-weight: 500;
+  font-size: 0.85em;
+}
+
+.model_name_arrow {
+  width: 100%;
+  color: #797986;
+  position: relative;
+  height: auto;
+}
+.model_link_name {
+  /* composes: model_name_arrow; */
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  color: #0d4cfd;
+}
+.model_link_remove {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.model_link_remove > div {
+  cursor: pointer;
+}
+.linked_model_drop {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-left: 0.5em;
+}
+.import_var_main {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  gap: 4px;
+}
+.main_var_text {
+  color: #afafb6;
+}
+.main_select {
+  border: 1px solid #afafb6;
+  color: #afafb6;
+  border-radius: 4px;
+  height: 2.5rem;
+}

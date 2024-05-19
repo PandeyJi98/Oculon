@@ -1,0 +1,23 @@
+<svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_98_966)">
+<rect x="2" y="1" width="24" height="24.0014" rx="2" fill="#F8F9FA"/>
+<rect x="2.5" y="1.5" width="23" height="23.0014" rx="1.5" stroke="#CED4DA"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.01973 19.8325C5.98748 19.9902 5.99486 20.1535 6.04119 20.3077C6.08753 20.462 6.17138 20.6023 6.28525 20.7161C6.39911 20.83 6.53943 20.9139 6.69365 20.9602C6.84786 21.0065 7.01116 21.0139 7.16893 20.9817L10.8795 20.222L6.77937 16.1219L6.01973 19.8325ZM11.7862 17.2809L9.72151 15.2162L17.985 6.9478H17.987L20.0526 9.01344L11.7852 17.2818L11.7862 17.2809ZM21.4307 7.63634L19.366 5.56973C19.185 5.38867 18.97 5.24513 18.7333 5.14736C18.4967 5.04959 18.243 4.99951 17.987 5C17.4883 5 16.9897 5.18991 16.6089 5.56973L7.1066 15.073L11.9274 19.8938L21.4297 10.3905C21.7949 10.0253 22 9.52992 22 9.01344C22 8.49695 21.7949 8.00161 21.4297 7.63634H21.4307Z" fill="#ADB5BD"/>
+</g>
+<defs>
+<filter id="filter0_dd_98_966" x="0" y="0" width="28" height="29.0015" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.129412 0 0 0 0 0.145098 0 0 0 0 0.160784 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_98_966"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.129412 0 0 0 0 0.145098 0 0 0 0 0.160784 0 0 0 0.06 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_98_966" result="effect2_dropShadow_98_966"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_98_966" result="shape"/>
+</filter>
+</defs>
+</svg>
