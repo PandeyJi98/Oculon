@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Oculon/static/css/main.539ec542.css",
+    "main.js": "/Oculon/static/js/main.a1ca12ec.js",
+    "static/js/453.f4b9e843.chunk.js": "/Oculon/static/js/453.f4b9e843.chunk.js",
+    "static/media/om.png": "/Oculon/static/media/om.bd37551d16a08cbe4e6e.png",
+    "static/media/preferences.svg": "/Oculon/static/media/preferences.dd7aaeb683270670a779a11390f39972.svg",
+    "static/media/logo.svg": "/Oculon/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/roadmap.svg": "/Oculon/static/media/roadmap.11ef52151c37d1d947caae2c7e2a7c82.svg",
+    "static/media/schedule.svg": "/Oculon/static/media/schedule.6455d415ab6321c9b03d9c6dc7ea4a59.svg",
+    "static/media/percent.svg": "/Oculon/static/media/percent.61b351a3819e69c81e346ab641ca709d.svg",
+    "static/media/vid-full-screen-off.svg": "/Oculon/static/media/vid-full-screen-off.1436f5ae0975d4f6dbcd6af9b6fac35d.svg",
+    "static/media/edit.svg": "/Oculon/static/media/edit.55bee1a15d535d4150c5f0cf95601500.svg",
+    "static/media/dollar.svg": "/Oculon/static/media/dollar.9d578b7d52eccc29d40f12a896a0b466.svg",
+    "static/media/plusCopy.svg": "/Oculon/static/media/plusCopy.d837d207f02a07368c41171cfdba5708.svg",
+    "static/media/export.svg": "/Oculon/static/media/export.90e34b12d82751d22be14557a99e10a8.svg",
+    "static/media/question-circle.svg": "/Oculon/static/media/question-circle.0b9e0d1dec613acbba9fdf348aa84842.svg",
+    "static/media/circleCheck.svg": "/Oculon/static/media/circleCheck.7d5e0543ab44c9d316c8720a13b62ae7.svg",
+    "static/media/add-comment.svg": "/Oculon/static/media/add-comment.58b91d3a54bbcb0e6a475efdbf4d7b8e.svg",
+    "static/media/arrow-right.svg": "/Oculon/static/media/arrow-right.99eaded4ceeb095108827f45d99a57ea.svg",
+    "static/media/marketplace.svg": "/Oculon/static/media/marketplace.43e89ae707a1f5335d9ff9ae3363b411.svg",
+    "static/media/calendar.svg": "/Oculon/static/media/calendar.018c10b3cdfafc5924b7fb48d843403c.svg",
+    "static/media/custom blue.svg": "/Oculon/static/media/custom blue.031e11325237820dcc653d8d172e78ca.svg",
+    "static/media/trash.svg": "/Oculon/static/media/trash.b15dae9d797d385b358906e99c94afb5.svg",
+    "static/media/custom.svg": "/Oculon/static/media/custom.5955452d58d50b14f6a6a81df0dade4a.svg",
+    "static/media/info.svg": "/Oculon/static/media/info.6bfb9efddebc6ccce63914f60ba64302.svg",
+    "static/media/branches.svg": "/Oculon/static/media/branches.7e7e6b8993f344f25aaefabb7f014819.svg",
+    "static/media/chevron-right-large.svg": "/Oculon/static/media/chevron-right-large.2c5e932fbdf33699493850dd09e0ff66.svg",
+    "static/media/copy.svg": "/Oculon/static/media/copy.6b3fe1f4ec436f79b59acfccc6f6cdde.svg",
+    "index.html": "/Oculon/index.html",
+    "static/media/Search.svg": "/Oculon/static/media/Search.6f63946aab988f8c8c1823fcd8a7988d.svg",
+    "static/media/material-symbols-light_arrow-left.svg": "/Oculon/static/media/material-symbols-light_arrow-left.f70ccf6590e80d07e8a77fa0b3d2f56e.svg",
+    "static/media/Ellipse 120 (1).svg": "/Oculon/static/media/Ellipse 120 (1).e080ce19b2971ac65dd8471461619011.svg",
+    "static/media/Ellipse 120.svg": "/Oculon/static/media/Ellipse 120.890d6e709267c1dd40b2a520e7c724e6.svg",
+    "main.539ec542.css.map": "/Oculon/static/css/main.539ec542.css.map",
+    "main.a1ca12ec.js.map": "/Oculon/static/js/main.a1ca12ec.js.map",
+    "453.f4b9e843.chunk.js.map": "/Oculon/static/js/453.f4b9e843.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.539ec542.css",
+    "static/js/main.a1ca12ec.js"
+  ]
+}
